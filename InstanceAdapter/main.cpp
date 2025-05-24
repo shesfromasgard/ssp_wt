@@ -3,7 +3,7 @@
 #include <climits>
 #include <random>
 #include <cmath>
-#include <iomanip> // Para formatar a saída com std::fixed e std::setprecision
+#include <iomanip>
 
 using namespace std;
 
