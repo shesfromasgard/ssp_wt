@@ -1,7 +1,7 @@
 import subprocess
 import os
 import sys
-import re # Importar o módulo de expressões regulares
+import re
 
 # Altere 'CPP_EXECUTABLE' para o caminho do seu executável C++
 # Exemplo Linux/macOS: './meu_programa_exec'
