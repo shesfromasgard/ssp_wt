@@ -1,4 +1,4 @@
-<h1>SOi, gatinha!</h1>
+<h1>Oi, gatinha!</h1>
 
 <p></p>
 
