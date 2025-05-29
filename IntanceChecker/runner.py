@@ -67,15 +67,15 @@ report_filepath = os.path.join(OUTPUT_FOLDER, "relatorio_instancias.txt")
 
 if not os.path.isdir(INPUT_FOLDER):
     print(f"Erro: Pasta de entrada '{INPUT_FOLDER}' não encontrada.")
-    print("Por favor, crie a pasta e coloque seus arquivos .PMTC de entrada nela.")
+    print("Por favor, crie a pasta e coloque seus arquivos .txt de entrada nela.")
     exit()
 
 
-input_files = [f for f in os.listdir(INPUT_FOLDER) if f.endswith('.PMTC')]
+input_files = [f for f in os.listdir(INPUT_FOLDER) if f.endswith('.txt')]
 
 
 if not input_files:
-    print(f"Nenhum arquivo '.PMTC' com instância par encontrado na pasta '{INPUT_FOLDER}'.")
+    print(f"Nenhum arquivo '.txt' com instância par encontrado na pasta '{INPUT_FOLDER}'.")
     exit()
 
 print(f"Encontrados {len(input_files)} arquivos de entrada (instâncias pares) em '{INPUT_FOLDER}'. Iniciando processamento...")

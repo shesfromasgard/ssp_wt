@@ -1,7 +1,7 @@
 import subprocess
 import os
 import sys
-import re # Importar o módulo de expressões regulares
+import re
 
 # Altere 'CPP_EXECUTABLE' para o caminho do seu executável C++
 # Exemplo Linux/macOS: './meu_programa_exec'
@@ -74,8 +74,7 @@ except Exception as e:
 
 
 def get_instance_number(filename):
-    """Extrai o número da instância de um nome de arquivo."""
-    match = re.search(r'instance(\d+)_', filename)
+    match = re.search(r'instanceLarge(\d+)_', filename)
     if match:
         return int(match.group(1))
     return None
@@ -86,7 +85,7 @@ for filename in all_input_files:
     if instance_num is not None and instance_num % 2 == 0:
         filtered_input_files.append(filename)
     else:
-        print(f"Ignorando '{filename}': Não é uma instância par ou não segue o padrão 'instanceX_'.")
+        print(f"Ignorando '{filename}': Não é uma instância par ou não segue o padrão 'instanceLargeX_'.")
 
 input_files = filtered_input_files
 if not input_files:

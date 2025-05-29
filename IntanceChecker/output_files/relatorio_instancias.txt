@@ -1,0 +1,7 @@
+--- Relatório de Validação de Instâncias ---
+Total de instâncias processadas: 300
+   Instâncias VÁLIDAS: 300
+   Instâncias INVÁLIDAS: 0
+
+Todas as instâncias processadas são VÁLIDAS!
+----------------------------------------------
