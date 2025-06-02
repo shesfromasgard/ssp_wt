@@ -115,12 +115,9 @@ vector<int> swap(vector<int> solucao, int a, int b) {
         b = tmp;
     }
 
-    for(int i = a; i <= b; ++i) {
-        int tmp = solucao[i];
-        solucao[i] = solucao[b];
-        solucao[b] = tmp;
-        --b;
-    }
+    int tmp = solucao[a];
+    solucao[a] = solucao[b];
+    solucao[b] = tmp;
 
     return solucao;
 }
