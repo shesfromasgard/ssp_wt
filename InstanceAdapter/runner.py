@@ -74,7 +74,7 @@ except Exception as e:
 
 
 def get_instance_number(filename):
-    match = re.search(r'instanceLarge(\d+)_', filename)
+    match = re.search(r'instance(\d+)_', filename)
     if match:
         return int(match.group(1))
     return None

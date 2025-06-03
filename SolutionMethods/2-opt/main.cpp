@@ -25,8 +25,6 @@ vector<vector<int>> matrix;
 vector<int> toolLife;
 vector<int> executionTime;
 
-vector<int> solution;
-
 std::random_device rd;
 std::mt19937 g(rd());
 
@@ -74,34 +72,43 @@ int main() {
 }
 
 long opt2(vector<int> processos, bool debug = false) {
-    solution = processos;
-    long melhorResultado = KTNS(solution, false);
+    vector<int> solucaoAtual = processos;
+    long resultadoAtual = KTNS(processos, false);
+
+    vector<int> melhorSolucao = solucaoAtual;
+    long melhorResultado = resultadoAtual;
+
+    vector<int> solucaoNova;
+    long resultadoNovo;
+
     bool melhorou = true;
 
-    while (melhorou) {
+    while(melhorou) {
         melhorou = false;
 
-        for (int i = 0; i < n - 1; ++i) {
-            for (int j = i + 1; j < n; ++j) {
-                swap(i, j);
-                long novoResultado = KTNS(solution, false);
+        for(int i = 0 ; i < n - 1; ++i) {
+            for(int j = i + 1; j < n; ++j) {
+                solucaoNova = solucaoAtual;
+                solucaoNova = swap(solucaoNova, i, j);
 
-                if (novoResultado < melhorResultado) {
-                    melhorResultado = novoResultado;
-                    processos = solution;
+                resultadoNovo = KTNS(solucaoNova, false);
+
+                if(resultadoNovo < melhorResultado) {
+                    melhorResultado = resultadoNovo;
+                    melhorSolucao = solucaoNova;
                     melhorou = true;
-                } else {
-                    solution = processos;
                 }
             }
         }
+
+        solucaoAtual = melhorSolucao;
+
     }
 
     return melhorResultado;
 }
 
-
-void swap(int a, int b) {
+vector<int> swap(vector<int> solucao, int a, int b) {
     if(a > b) {
         int tmp = a;
         a = b;
@@ -109,11 +116,13 @@ void swap(int a, int b) {
     }
 
     for(int i = a; i <= b; ++i) {
-        int tmp = solution[i];
-        solution[i] = solution[b];
-        solution[b] = tmp;
+        int tmp = solucao[i];
+        solucao[i] = solucao[b];
+        solucao[b] = tmp;
         --b;
     }
+
+    return solucao;
 }
 
 int KTNS(const vector<int> processos, bool debug = false) {
