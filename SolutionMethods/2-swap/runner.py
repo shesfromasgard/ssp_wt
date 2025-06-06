@@ -5,9 +5,9 @@ import csv
 
 # Altere 'CPP_EXECUTABLE' para o caminho do seu executável C++
 # Exemplo Linux/macOS: './meu_programa_exec'
-# Exemplo Windows: 'meu_programa.exe' ou r'C:\caminho\para\meu_programa.exe'
+# Exemplo Windows: 'meu_programa.exe' ou 'C:\caminho\para\meu_programa.exe'
 
-CPP_EXECUTABLE = './main.exe' 
+CPP_EXECUTABLE = './main' 
 
 INPUT_FOLDER = 'input_files'
 OUTPUT_FOLDER = 'output_files'

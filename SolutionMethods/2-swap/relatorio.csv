@@ -1,0 +1,17 @@
+Instance_Name,Execution_Time,Initial_Solution,Final_Solution
+adapted_instanceLarge1000_m=7_n=200_l=30_c=20_s=0_1.txt,1777.09,1622,1383
+adapted_instanceLarge1000_m=7_n=200_l=30_c=20_s=0_2.txt,1544.06,1626,1397
+adapted_instanceLarge1000_m=7_n=200_l=30_c=20_s=0_3.txt,1964.15,1613,1384
+adapted_instanceLarge1000_m=7_n=200_l=30_c=20_s=0_4.txt,1658.92,1598,1395
+adapted_instanceLarge1000_m=7_n=200_l=30_c=20_s=0_5.txt,1274.03,1597,1412
+adapted_instanceLarge1000_m=7_n=200_l=30_c=20_s=0_6.txt,1248.86,1637,1425
+adapted_instanceLarge1000_m=7_n=200_l=30_c=20_s=0_7.txt,1287.43,1624,1410
+adapted_instanceLarge1000_m=7_n=200_l=30_c=20_s=0_8.txt,1496.51,1613,1394
+adapted_instanceLarge1000_m=7_n=200_l=30_c=20_s=0_9.txt,1596.44,1614,1399
+adapted_instanceLarge1000_m=7_n=200_l=30_c=20_s=0_10.txt,1417.09,1617,1405
+adapted_instanceLarge1002_m=7_n=200_l=30_c=20_s=2_1.txt,1510.82,1609,1427
+adapted_instanceLarge1002_m=7_n=200_l=30_c=20_s=2_2.txt,1409.27,1621,1435
+adapted_instanceLarge1002_m=7_n=200_l=30_c=20_s=2_3.txt,1574.15,1646,1427
+adapted_instanceLarge1002_m=7_n=200_l=30_c=20_s=2_4.txt,1578.74,1624,1423
+adapted_instanceLarge1002_m=7_n=200_l=30_c=20_s=2_5.txt,1123.49,1606,1432
+adapted_instanceLarge1002_m=7_n=200_l=30_c=20_s=2_6.txt,1437.62,1639,1427

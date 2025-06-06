@@ -16,7 +16,7 @@ int main() {
 
     random_device rd;
     mt19937 generator(rd());
-    normal_distribution<double> distribution(1.1, 0.33);
+    normal_distribution<double> distribution(1.0, 0.33);
 
     cin >> m >> w >> t >> c >> p;
 

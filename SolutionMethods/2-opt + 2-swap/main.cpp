@@ -33,8 +33,8 @@ std::mt19937 g(rd());
 long opt2(bool debug);
 int KTNS(vector<int> solucao, bool debug);
 long swap2(bool debug);
-vector<int> opt(vector<int> solucao, int a, int b);
-vector<int> swap(vector<int> solucao, int a, int b);
+void opt(vector<int>& solucao, int a, int b);
+void trocar(vector<int>& solucao, int a, int b);
 
 int main() {
     
@@ -94,7 +94,7 @@ long opt2(bool debug = false) {
         for(int i = 0 ; i < n - 1; ++i) {
             for(int j = i + 1; j < n; ++j) {
                 solucaoNova = solucaoAtual;
-                solucaoNova = opt(solucaoNova, i, j);
+                opt(solucaoNova, i, j);
 
                 resultadoNovo = KTNS(solucaoNova, false);
 
@@ -115,7 +115,7 @@ long opt2(bool debug = false) {
     return melhorResultado;
 }
 
-vector<int> opt(vector<int> solucao, int a, int b) {
+void opt(vector<int>& solucaoNova, int a, int b) {
     if(a > b) {
         int tmp = a;
         a = b;
@@ -123,13 +123,11 @@ vector<int> opt(vector<int> solucao, int a, int b) {
     }
 
     for(int i = a; i <= b; ++i) {
-        int tmp = solucao[i];
-        solucao[i] = solucao[b];
-        solucao[b] = tmp;
+        int tmp = solucaoNova[i];
+        solucaoNova[i] = solucaoNova[b];
+        solucaoNova[b] = tmp;
         --b;
     }
-
-    return solucao;
 }
 
 long swap2(bool debug = false) {
@@ -150,7 +148,7 @@ long swap2(bool debug = false) {
         for(int i = 0 ; i < n - 1; ++i) {
             for(int j = i + 1; j < n; ++j) {
                 solucaoNova = solucaoAtual;
-                solucaoNova = swap(solucaoNova, i, j);
+                trocar(solucaoNova, i, j);
 
                 resultadoNovo = KTNS(solucaoNova, false);
 
@@ -171,18 +169,17 @@ long swap2(bool debug = false) {
     return melhorResultado;
 }
 
-vector<int> swap(vector<int> solucao, int a, int b) {
+void trocar(vector<int>& solucaoNova, int a, int b) {
     if(a > b) {
         int tmp = a;
         a = b;
         b = tmp;
     }
 
-    int tmp = solucao[a];
-    solucao[a] = solucao[b];
-    solucao[b] = tmp;
+    int tmp = solucaoNova[a];
+    solucaoNova[a] = solucaoNova[b];
+    solucaoNova[b] = tmp;
 
-    return solucao;
 }
 
 int KTNS(vector<int> solucao, bool debug = false) {

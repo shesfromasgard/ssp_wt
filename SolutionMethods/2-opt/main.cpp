@@ -30,7 +30,7 @@ std::mt19937 g(rd());
 
 long opt2(const vector<int> processos, bool debug);
 int KTNS(const vector<int> processos, bool debug);
-void swap(int a, int b);
+void trocar(vector<int>& solucaoNova, int a, int b);
 
 int main() {
     
@@ -89,7 +89,7 @@ long opt2(vector<int> processos, bool debug = false) {
         for(int i = 0 ; i < n - 1; ++i) {
             for(int j = i + 1; j < n; ++j) {
                 solucaoNova = solucaoAtual;
-                solucaoNova = swap(solucaoNova, i, j);
+                trocar(solucaoNova, i, j);
 
                 resultadoNovo = KTNS(solucaoNova, false);
 
@@ -108,21 +108,19 @@ long opt2(vector<int> processos, bool debug = false) {
     return melhorResultado;
 }
 
-vector<int> swap(vector<int> solucao, int a, int b) {
-    if(a > b) {
+void trocar(vector<int>& solucaoNova, int a, int b) {
+    if (a > b) {
         int tmp = a;
         a = b;
         b = tmp;
     }
 
-    for(int i = a; i <= b; ++i) {
-        int tmp = solucao[i];
-        solucao[i] = solucao[b];
-        solucao[b] = tmp;
+    for (int i = a; i <= b; ++i) {
+        int tmp = solucaoNova[i];
+        solucaoNova[i] = solucaoNova[b];
+        solucaoNova[b] = tmp;
         --b;
     }
-
-    return solucao;
 }
 
 int KTNS(const vector<int> processos, bool debug = false) {
