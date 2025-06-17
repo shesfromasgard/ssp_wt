@@ -1,7 +1,230 @@
 --- Relatório de Validação de Instâncias ---
-Total de instâncias processadas: 300
-   Instâncias VÁLIDAS: 300
-   Instâncias INVÁLIDAS: 0
+Data e Hora do Relatório: 1749764250.0532017
+Total de instâncias processadas: 20
+   Instâncias VÁLIDAS: 20
+   Instâncias INVÁLIDAS/FALHAS: 0
+
+--- Detalhes por Instância ---
+
+========================================
+Instância: adapted_instance242_m=2_n=15_l=15_c=5_s=1.txt
+Status: Correta
+Código de Retorno: 0
+
+--- Saída Padrão do Executável ---
+--- Iniciando Validacao ---
+--- Validacao Finalizada ---
+
+Instancia VALIDA.
+
+========================================
+Instância: adapted_instance244_m=2_n=15_l=15_c=5_s=0.txt
+Status: Correta
+Código de Retorno: 0
+
+--- Saída Padrão do Executável ---
+--- Iniciando Validacao ---
+--- Validacao Finalizada ---
+
+Instancia VALIDA.
+
+========================================
+Instância: adapted_instance246_m=2_n=15_l=15_c=5_s=2.txt
+Status: Correta
+Código de Retorno: 0
+
+--- Saída Padrão do Executável ---
+--- Iniciando Validacao ---
+--- Validacao Finalizada ---
+
+Instancia VALIDA.
+
+========================================
+Instância: adapted_instance248_m=2_n=15_l=15_c=5_s=1.txt
+Status: Correta
+Código de Retorno: 0
+
+--- Saída Padrão do Executável ---
+--- Iniciando Validacao ---
+--- Validacao Finalizada ---
+
+Instancia VALIDA.
+
+========================================
+Instância: adapted_instance250_m=2_n=15_l=15_c=5_s=0.txt
+Status: Correta
+Código de Retorno: 0
+
+--- Saída Padrão do Executável ---
+--- Iniciando Validacao ---
+--- Validacao Finalizada ---
+
+Instancia VALIDA.
+
+========================================
+Instância: adapted_instance252_m=2_n=15_l=15_c=5_s=2.txt
+Status: Correta
+Código de Retorno: 0
+
+--- Saída Padrão do Executável ---
+--- Iniciando Validacao ---
+--- Validacao Finalizada ---
+
+Instancia VALIDA.
+
+========================================
+Instância: adapted_instance254_m=2_n=15_l=15_c=5_s=1.txt
+Status: Correta
+Código de Retorno: 0
+
+--- Saída Padrão do Executável ---
+--- Iniciando Validacao ---
+--- Validacao Finalizada ---
+
+Instancia VALIDA.
+
+========================================
+Instância: adapted_instance256_m=2_n=15_l=15_c=5_s=0.txt
+Status: Correta
+Código de Retorno: 0
+
+--- Saída Padrão do Executável ---
+--- Iniciando Validacao ---
+--- Validacao Finalizada ---
+
+Instancia VALIDA.
+
+========================================
+Instância: adapted_instance362_m=2_n=15_l=20_c=8_s=1.txt
+Status: Correta
+Código de Retorno: 0
+
+--- Saída Padrão do Executável ---
+--- Iniciando Validacao ---
+--- Validacao Finalizada ---
+
+Instancia VALIDA.
+
+========================================
+Instância: adapted_instance364_m=2_n=15_l=20_c=8_s=0.txt
+Status: Correta
+Código de Retorno: 0
+
+--- Saída Padrão do Executável ---
+--- Iniciando Validacao ---
+--- Validacao Finalizada ---
+
+Instancia VALIDA.
+
+========================================
+Instância: adapted_instance366_m=2_n=15_l=20_c=8_s=2.txt
+Status: Correta
+Código de Retorno: 0
+
+--- Saída Padrão do Executável ---
+--- Iniciando Validacao ---
+--- Validacao Finalizada ---
+
+Instancia VALIDA.
+
+========================================
+Instância: adapted_instance368_m=2_n=15_l=20_c=8_s=1.txt
+Status: Correta
+Código de Retorno: 0
+
+--- Saída Padrão do Executável ---
+--- Iniciando Validacao ---
+--- Validacao Finalizada ---
+
+Instancia VALIDA.
+
+========================================
+Instância: adapted_instance370_m=2_n=15_l=20_c=8_s=0.txt
+Status: Correta
+Código de Retorno: 0
+
+--- Saída Padrão do Executável ---
+--- Iniciando Validacao ---
+--- Validacao Finalizada ---
+
+Instancia VALIDA.
+
+========================================
+Instância: adapted_instance372_m=2_n=15_l=20_c=8_s=2.txt
+Status: Correta
+Código de Retorno: 0
+
+--- Saída Padrão do Executável ---
+--- Iniciando Validacao ---
+--- Validacao Finalizada ---
+
+Instancia VALIDA.
+
+========================================
+Instância: adapted_instance374_m=2_n=15_l=20_c=8_s=1.txt
+Status: Correta
+Código de Retorno: 0
+
+--- Saída Padrão do Executável ---
+--- Iniciando Validacao ---
+--- Validacao Finalizada ---
+
+Instancia VALIDA.
+
+========================================
+Instância: adapted_instance376_m=2_n=15_l=20_c=8_s=0.txt
+Status: Correta
+Código de Retorno: 0
+
+--- Saída Padrão do Executável ---
+--- Iniciando Validacao ---
+--- Validacao Finalizada ---
+
+Instancia VALIDA.
+
+========================================
+Instância: adapted_instance400_m=2_n=15_l=20_c=12_s=0.txt
+Status: Correta
+Código de Retorno: 0
+
+--- Saída Padrão do Executável ---
+--- Iniciando Validacao ---
+--- Validacao Finalizada ---
+
+Instancia VALIDA.
+
+========================================
+Instância: adapted_instance402_m=2_n=15_l=20_c=12_s=2.txt
+Status: Correta
+Código de Retorno: 0
+
+--- Saída Padrão do Executável ---
+--- Iniciando Validacao ---
+--- Validacao Finalizada ---
+
+Instancia VALIDA.
+
+========================================
+Instância: adapted_instance404_m=2_n=15_l=20_c=12_s=1.txt
+Status: Correta
+Código de Retorno: 0
+
+--- Saída Padrão do Executável ---
+--- Iniciando Validacao ---
+--- Validacao Finalizada ---
+
+Instancia VALIDA.
+
+========================================
+Instância: adapted_instance408_m=2_n=15_l=20_c=12_s=2.txt
+Status: Correta
+Código de Retorno: 0
+
+--- Saída Padrão do Executável ---
+--- Iniciando Validacao ---
+--- Validacao Finalizada ---
+
+Instancia VALIDA.
 
 Todas as instâncias processadas são VÁLIDAS!
 ----------------------------------------------
