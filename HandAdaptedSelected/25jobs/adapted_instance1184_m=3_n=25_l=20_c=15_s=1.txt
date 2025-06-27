@@ -1,5 +1,9 @@
 25 20 15
+<<<<<<<< Updated upstream:HandAdaptedSelected/25jobs/adapted_instance1184_m=3_n=25_l=20_c=15_s=1.txt
 33 78 47 51 66 62 63 41 50 58 48 46 52 43 52 38 47 54 65 52 
+========
+23 57 47 63 53 57 58 52 52 49 46 63 58 45 54 40 65 57 63 51 
+>>>>>>>> Stashed changes:IntanceChecker/Deviation/input_files/adapted_instance1184_m=3_n=25_l=20_c=15_s=1.txt
 6 21 44 7 1 16 1 43 14 5 23 40 41 27 7 54 41 14 34 7 34 5 22 41 20 
 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
 1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 1 1 0 1 1 0 0 1 0 0 

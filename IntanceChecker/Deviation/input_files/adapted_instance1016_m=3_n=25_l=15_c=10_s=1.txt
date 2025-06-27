@@ -1,5 +1,9 @@
 25 15 10
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:TestInstances/BeezaoAdaptedInstances/Mean=1.0Deviation=0.33/25jobs/adapted_instance1016_m=3_n=25_l=15_c=10_s=1.txt
+=======
+<<<<<<<< Updated upstream:HandAdaptedSelected/25jobs/adapted_instance1016_m=3_n=25_l=15_c=10_s=1.txt
+>>>>>>> Stashed changes
 89 70 72 67 63 62 72 69 66 73 82 61 64 60 72 
 ========
 75 65 64 73 73 76 67 64 56 70 76 58 60 56 68 
