@@ -3,16 +3,7 @@ import random
 import shutil
 
 def selecionar_e_copiar_arquivos(pasta_origem, pasta_destino, porcentagem_selecao=0.10):
-    """
-    Seleciona uma porcentagem de arquivos .txt de uma pasta e os copia para outra.
 
-    Args:
-        pasta_origem (str): O caminho para a pasta onde os arquivos .txt estão localizados.
-        pasta_destino (str): O caminho para a pasta onde os arquivos selecionados serão copiados.
-        porcentagem_selecao (float): A porcentagem de arquivos a serem selecionados (e.g., 0.10 para 10%).
-    """
-
-    # 1. Listar todos os arquivos .txt
     arquivos_txt = []
     try:
         for nome_arquivo in os.listdir(pasta_origem):
