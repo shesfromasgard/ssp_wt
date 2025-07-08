@@ -192,9 +192,7 @@ int KTNS(const vector<int> processos, bool debug = false) {
             if((magazine[j][i] == 1) && (carregadas[j] == 0)) {
                 carregadas[j] = 1;
                 ++u;
-                if(remainingLife[j] < executionTime[i]) {
-                    remainingLife[j] = toolLife[j];
-                }
+                remainingLife[j] = toolLife[j];
             }
 
         }
